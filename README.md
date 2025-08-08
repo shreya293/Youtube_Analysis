@@ -46,16 +46,7 @@ Youtube_Analysis/
 ├── templates/
 │ └── index.html
 
-
-## ▶️ How to Run
-
-```bash
-git clone https://github.com/yourusername/Youtube_Analysis.git
-cd Youtube_Analysis
-pip install -r requirements.txt
-python app.py
-
-## 📌 Conclusion
+## Conclusion 
 The YouTube Revenue Predictor estimates video revenue by analyzing six key performance metrics:
 
 Views
@@ -73,3 +64,11 @@ Engagement Rate
 These inputs are passed to a trained Random Forest Regression model which identifies patterns from historical data. The model captures how different levels of engagement and visibility typically influence ad earnings.
 
 🎯 In simple words: The more views and interaction a video gets, the higher its chances of earning more — and your model predicts that amount by learning from real YouTube data.
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/yourusername/Youtube_Analysis.git
+cd Youtube_Analysis
+pip install -r requirements.txt
+python app.py
